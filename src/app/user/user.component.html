@@ -1,0 +1,9 @@
+<div>
+    <button [class.active]="isUserSelected()" (click)="clickMe()">
+        <img 
+        [src]="imagePath()" 
+        [alt]="User().name"  
+        />
+        <span>{{User().name}}</span> <!--selectedUser().name -->
+    </button>
+</div>
